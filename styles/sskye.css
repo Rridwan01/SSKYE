@@ -1,0 +1,110 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mobile-wrapper {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #02022a;
+  color: white;
+  padding: 16px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fas {
+  color: white;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.account {
+  margin-left: auto;
+}
+
+.account a {
+  text-decoration: none;
+  color: #f37a4e;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #2e2e92;
+  height: 7vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+}
+
+.brand-logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logo-span {
+  color: #adaa1c;
+} 
+
+.nav-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: space-around;
+}
+
+.fas-nav {
+  width: 100%;
+  /* padding-top: 25px; */
+}
+
+.hero {
+  height: 70vh;
+  text-align: center;
+  color: white;
+  background-image: url('../images/sskye-hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+}
+
+.hero button {
+  padding: 15px 35px;
+  border: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  background-color: #2e89ce;
+  color: white;
+  border-radius: 30px;
+}
+
+.hero button:hover {
+  background-color: #2e2e92;
+  transition: background-color ease 0.5s;
+}
