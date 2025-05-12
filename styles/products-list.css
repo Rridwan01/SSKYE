@@ -1,0 +1,166 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Inter", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mobile-wrapper {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+nav {
+  background-color: #003366;
+  height: 5vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand-logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.brand-logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-span {
+  color: #adaa1c;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: space-around;
+}
+
+.fas {
+  color: white;
+}
+
+.fas-nav {
+  width: 100%;
+}
+
+.cart-bag {
+  position: relative;
+}
+
+.cart-quantity {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  color: white;
+  background-color: #2e89ce;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 0.7rem;
+}
+
+.all-products h3 {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.all-products-p {
+  font-size: 0.9rem;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.product-type {
+  font-size: 1rem;
+  padding: 20px;
+  padding-bottom: 0;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.curated-p {
+  color: #003366;
+  margin-top: 0;
+  font-size: 0.9rem;
+}
+
+.product-card {
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+.product-card img {
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.product-name,
+.product-price {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.product-collection {
+  color: #003366;
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.add-to-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.add-to-cart button {
+  background-color: #003366;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart button:hover {
+  background-color: #002244;
+}
