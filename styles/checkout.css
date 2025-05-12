@@ -1,0 +1,71 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Inter", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mobile-wrapper {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+nav {
+  background-color: #003366;
+  height: 5vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.brand-logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.brand-logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-span {
+  color: #adaa1c;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: space-around;
+}
+
+.fas {
+  color: white;
+}
+
+.fas-nav {
+  width: 100%;
+}
+
+.cart-bag {
+  position: relative;
+}
+
+.cart-quantity {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  color: white;
+  background-color: #2e89ce;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 0.7rem;
+}

@@ -104,6 +104,8 @@ nav {
 }
 
 .product-card {
+  text-decoration: none;
+  color: inherit;
   margin: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -134,6 +136,7 @@ nav {
   margin-bottom: 0;
   font-weight: bold;
   font-size: 0.8rem;
+  color: black;
 }
 
 .product-collection {
@@ -153,7 +156,7 @@ nav {
 .add-to-cart button {
   background-color: #003366;
   color: #fff;
-  padding: 10px 16px;
+  padding: 8px 16px;
   border: none;
   border-radius: 8px;
   font-size: 0.9rem;
